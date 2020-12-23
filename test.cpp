@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class ADTstack
+class Stack
 {
     private:
         char stack[5];
         int topstack;
 
     public:
-        ADTstack()
+        Stack()
         {
             topstack = -1;
         }
@@ -57,7 +57,7 @@ class ADTstack
 int main()
 {
     char s;
-    ADTstack st;
+    Stack st;
     cout << "Key in five characters : ";
     //cin >> s[0] >> s[1] >> s[2] >> s[3] >> s[4];
     for(int i=0; i<5; i++){
