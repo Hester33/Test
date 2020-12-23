@@ -4,7 +4,7 @@ using namespace std;
 class Stack
 {
     private:
-        char stack[100];
+        char stack[10];
         int topstack;
 
     public:
