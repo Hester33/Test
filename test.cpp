@@ -10,7 +10,7 @@ class Stack
     public:
         Stack()
         {
-            topstack = -1;
+            topstack = 0;
         }
         int empty()
         {
