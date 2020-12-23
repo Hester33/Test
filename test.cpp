@@ -6,6 +6,7 @@ class Stack
     private:
         char stack[100];
         int topstack;
+        bool abc;
 
     public:
         Stack()
